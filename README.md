@@ -12,6 +12,9 @@ Plain static HTML/CSS/JS — no build step. Open `index.html` in a browser, or h
 | `products.html` | منتجاتنا — Product catalog with category filter |
 | `story.html` | قصتنا والمصنع — About, timeline, factory, quality |
 | `contact.html` | اطلب عرض سعر — 3-step quote request form |
+| `en/*.html` | English versions of all four pages (left-to-right) |
+
+The **EN / ع** button in the header switches language and keeps you on the same page.
 
 ## Brand
 
@@ -24,7 +27,8 @@ Plain static HTML/CSS/JS — no build step. Open `index.html` in a browser, or h
 - Replace every bracketed placeholder (`[٠٠]`, `[0000]`, `[sales@safir.sa]`, phone, address, commercial registration, certificate logos, leadership photo and quote) with real details.
 - Confirm the product list matches Safir's actual range.
 - Connect the quote form and newsletter field to a real backend or form service; they don't submit anywhere yet.
-- The English toggle (EN) is a visual placeholder; English pages aren't built yet.
+- Placeholders appear in both languages: update the Arabic pages and the matching `en/` pages.
+- Canonical and hreflang links point to `https://yusefamin.github.io/safir-site/`. If you move to a custom domain, update those `<link>` tags in every page's `<head>`.
 
 ## Notes
 

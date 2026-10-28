@@ -37,7 +37,7 @@ a{color:#354B1F}a:hover{color:#8A6630}
 .floatS{animation:floatS 7s ease-in-out infinite}
 .sA{animation:sheetA 9s ease-in-out infinite}.sB{animation:sheetB 11s ease-in-out infinite}.sC{animation:sheetC 8s ease-in-out infinite}
 .spin{animation:spin 26s linear infinite}
-.marq{animation:marq 38s linear infinite}
+.marq{animation:marq 80s linear infinite}
 .dot{animation:travel 9s cubic-bezier(.6,0,.4,1) infinite}
 .leaf{animation:drift 14s linear infinite}
 @supports (animation-timeline: view()){
@@ -73,7 +73,7 @@ a{color:#354B1F}a:hover{color:#8A6630}
 .big-h{font-size:44px!important}
 .pad{padding-inline:20px!important}
 .heroart{height:460px!important}
-.mani{font-size:30px!important}
+.mani{font-size:26px!important}
 }
 @media (max-width:620px){.g3,.g4{grid-template-columns:1fr!important}.hero-h{font-size:48px!important}}
 </style>
@@ -105,7 +105,7 @@ a{color:#354B1F}a:hover{color:#8A6630}
 </nav>
 <div style="display:flex;align-items:center;gap:12px">
 <a class="lat" href="en/index.html" hreflang="en" lang="en" aria-label="English version" style="min-width:48px;min-height:44px;border-radius:999px;border:1px solid rgba(53,75,31,.3);background:transparent;color:#354B1F;font-weight:600;font-size:14px;cursor:pointer;display:inline-grid;place-items:center;text-decoration:none">EN</a>
-<a class="btn btn-g" href="contact.html" style="min-height:46px;padding:0 22px;font-size:15px">اطلب عرض سعر</a>
+<a class="btn btn-g" href="contact.html" data-quote style="min-height:46px;padding:0 22px;font-size:15px">اطلب عرض سعر</a>
 </div>
 </div>
 </header>
@@ -116,24 +116,21 @@ a{color:#354B1F}a:hover{color:#8A6630}
 <div aria-hidden="true" class="lat" style="position:absolute;bottom:-40px;left:-20px;font-size:330px;font-weight:600;line-height:.8;color:rgba(53,75,31,.045);letter-spacing:-.04em;white-space:nowrap">SAFIR</div>
 <div class="g2 pad" style="position:relative;max-width:1360px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center">
 <div>
-<div class="h-in" style="display:inline-flex;align-items:center;gap:12px;padding:8px 18px 8px 8px;border-radius:999px;background:#FAF6EC;border:1px solid rgba(53,75,31,.14);font-size:14px">
-<span style="width:28px;height:28px;border-radius:50%;background:#354B1F;display:grid;place-items:center"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D8CA98" stroke-width="2.2" stroke-linecap="round"><path d="M12 3v18M3 12h18"></path></svg></span>
-مصنع سعودي للمنتجات الورقية
-</div>
-<h1 class="hero-h" style="margin:34px 0 0;font-size:108px;line-height:1.08;font-weight:600;letter-spacing:-.01em">
+<h1 class="hero-h" style="margin:0;font-size:108px;line-height:1.08;font-weight:600;letter-spacing:-.01em">
 <span class="h-in d1" style="display:block">ورقٌ يُلامس</span>
 <span class="h-in d2" style="display:block">تفاصيل <span style="color:#B58D4D;font-weight:300">يومك.</span></span>
 </h1>
-<p class="h-in d3" style="margin:30px 0 0;max-width:540px;font-size:20px;line-height:1.9;font-weight:300;color:#3F5328">صناعة تجمع دقّة الآلة ونعومة الورق — من البكرة الجامبو في خطوط الإنتاج، إلى المنديل الذي يصل إلى يدك.</p>
+<p class="h-in d3" style="margin:30px 0 0;max-width:540px;font-size:20px;line-height:1.9;font-weight:300;color:#3F5328">صناعة تجمع دقة الآلة ونعومة الورق، من البكرة الجامبو في خطوط الإنتاج إلى المنتج التام الذي يصل إليك.</p>
 <div class="h-in d4" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:42px">
 <a class="btn btn-g" href="products.html">اكتشف منتجاتنا
 <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></a>
 <a class="btn btn-o" href="#label">علامتك الخاصة</a>
 </div>
-<div class="h-in d5" style="display:flex;gap:36px;margin-top:64px;padding-top:28px;border-top:1px solid rgba(53,75,31,.16);flex-wrap:wrap">
-<div><div style="font-size:30px;font-weight:600">[٠٠+]</div><div style="font-size:14px;color:#56693D;margin-top:4px">سنة من الخبرة</div></div>
-<div><div style="font-size:30px;font-weight:600">[٠٠٠]</div><div style="font-size:14px;color:#56693D;margin-top:4px">طن طاقة شهرية</div></div>
-<div><div style="font-size:30px;font-weight:600">١٣ <span style="font-size:16px;font-weight:400">منطقة</span></div><div style="font-size:14px;color:#56693D;margin-top:4px">توزيع في أنحاء المملكة</div></div>
+<div class="h-in d5" style="display:flex;gap:40px;margin-top:64px;padding-top:28px;border-top:1px solid rgba(53,75,31,.16);flex-wrap:wrap">
+<div><div style="font-size:30px;font-weight:600">٥٠</div><div style="font-size:14px;color:#56693D;margin-top:4px">سنة من الخبرة</div></div>
+<div><div style="font-size:30px;font-weight:600">٧٨</div><div style="font-size:14px;color:#56693D;margin-top:4px">طن طاقة شهرية</div></div>
+<div><div style="font-size:30px;font-weight:600">١٥٠</div><div style="font-size:14px;color:#56693D;margin-top:4px">موظف</div></div>
+<div><div style="font-size:30px;font-weight:600">١٠٠٠</div><div style="font-size:14px;color:#56693D;margin-top:4px">عميل</div></div>
 </div>
 </div>
 
@@ -143,14 +140,17 @@ a{color:#354B1F}a:hover{color:#8A6630}
 <div class="sC" style="position:absolute;top:96px;left:50%;margin-left:-180px;width:360px;height:480px;border-radius:6px;background:#FAF6EC;box-shadow:0 40px 70px -30px rgba(38,54,26,.55)"></div>
 <img class="floatS" src="assets/safir-s.webp" alt="" style="position:absolute;top:70px;left:50%;margin-left:-190px;width:380px;height:auto;filter:drop-shadow(0 40px 40px rgba(38,54,26,.35))">
 <div style="position:absolute;bottom:40px;right:10px;width:170px;height:170px">
-<svg class="spin" viewBox="0 0 200 200" width="170" height="170" role="img" aria-label="مصنع سفير — صُنع في السعودية">
+<svg class="spin" viewBox="0 0 200 200" width="170" height="170" role="img" aria-label="صُنع في السعودية — Made in Saudi Arabia">
 <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"></path></defs>
 <circle cx="100" cy="100" r="98" fill="#354B1F"></circle>
-<text fill="#D8CA98" font-size="15" font-family="Readex Pro" letter-spacing="2" direction="ltr"><textPath href="#circ">صُنع في السعودية · SAFIR PAPER · مصنع سفير · </textPath></text>
+<text fill="#D8CA98" font-size="17" font-family="Readex Pro, sans-serif" direction="ltr" text-anchor="middle"><textPath href="#circ" startOffset="25%">صُنع في السعودية</textPath></text>
+<text fill="#D8CA98" font-size="13" font-family="Jost, sans-serif" font-weight="500" letter-spacing="1.6" direction="ltr" text-anchor="middle"><textPath href="#circ" startOffset="75%">MADE IN SAUDI ARABIA</textPath></text>
+<text fill="#B58D4D" font-size="14" direction="ltr" text-anchor="middle"><textPath href="#circ" startOffset="50%">✦</textPath></text>
+<text fill="#B58D4D" font-size="14" direction="ltr" text-anchor="start"><textPath href="#circ" startOffset="0.4%">✦</textPath></text>
 </svg>
 <div style="position:absolute;inset:0;display:grid;place-items:center"><span class="lat" style="color:#B58D4D;font-size:34px;font-weight:600">S</span></div>
 </div>
-<div class="hide-m" style="position:absolute;top:30px;left:0;background:#FAF6EC;border-radius:16px;padding:16px 20px;box-shadow:0 20px 40px -24px rgba(38,54,26,.4);display:flex;gap:14px;align-items:center">
+<div class="hide-m" style="position:absolute;bottom:18px;left:0;z-index:2;background:#FAF6EC;border-radius:16px;padding:16px 20px;box-shadow:0 20px 40px -24px rgba(38,54,26,.4);display:flex;gap:14px;align-items:center">
 <div style="width:46px;height:46px;border-radius:50%;background:radial-gradient(circle,#6B5A3A 0 14%,#E9DFC6 15% 19%,transparent 20%),repeating-radial-gradient(circle,#F7F1E3 0 2px,#E2D6B8 2px 3px)"></div>
 <div><div style="font-size:13px;color:#56693D">من البكرة الأم</div><div style="font-size:16px;font-weight:600">حتى العبوة النهائية</div></div>
 </div>
@@ -161,16 +161,16 @@ a{color:#354B1F}a:hover{color:#8A6630}
 <!-- MARQUEE -->
 <section aria-label="أصناف المنتجات" style="background:#354B1F;color:#F4EEDF;padding:30px 0;overflow:hidden;transform:rotate(-1.2deg);margin:0 -20px">
 <div class="marq" style="display:flex;width:max-content;gap:56px;font-size:44px;font-weight:300;white-space:nowrap;align-items:center">
-<span>مناديل الوجه</span><span style="color:#B58D4D">✦</span><span>مناديل المائدة</span><span style="color:#B58D4D">✦</span><span>مناشف المطبخ</span><span style="color:#B58D4D">✦</span><span>ورق التواليت</span><span style="color:#B58D4D">✦</span><span>البكرات الجامبو</span><span style="color:#B58D4D">✦</span><span>مناشف الأيدي</span><span style="color:#B58D4D">✦</span>
-<span>مناديل الوجه</span><span style="color:#B58D4D">✦</span><span>مناديل المائدة</span><span style="color:#B58D4D">✦</span><span>مناشف المطبخ</span><span style="color:#B58D4D">✦</span><span>ورق التواليت</span><span style="color:#B58D4D">✦</span><span>البكرات الجامبو</span><span style="color:#B58D4D">✦</span><span>مناشف الأيدي</span><span style="color:#B58D4D">✦</span>
+<span>ورق يلامس تفاصيل يومك</span><span style="color:#B58D4D">✦</span><span>بكرات ورق من ٤٠ جم إلى ٤٠٠ جم</span><span style="color:#B58D4D">✦</span><span>آلات متخصصة لقص وتغليف الورق</span><span style="color:#B58D4D">✦</span><span>علب هارد كفر مقوى</span><span style="color:#B58D4D">✦</span><span>علب ورقية</span><span style="color:#B58D4D">✦</span><span>علب كرتونية</span><span style="color:#B58D4D">✦</span><span>أكياس ورقية</span><span style="color:#B58D4D">✦</span><span>كاش رول حراري</span><span style="color:#B58D4D">✦</span><span>ستيكر رول بصمة</span><span style="color:#B58D4D">✦</span>
+<span>ورق يلامس تفاصيل يومك</span><span style="color:#B58D4D">✦</span><span>بكرات ورق من ٤٠ جم إلى ٤٠٠ جم</span><span style="color:#B58D4D">✦</span><span>آلات متخصصة لقص وتغليف الورق</span><span style="color:#B58D4D">✦</span><span>علب هارد كفر مقوى</span><span style="color:#B58D4D">✦</span><span>علب ورقية</span><span style="color:#B58D4D">✦</span><span>علب كرتونية</span><span style="color:#B58D4D">✦</span><span>أكياس ورقية</span><span style="color:#B58D4D">✦</span><span>كاش رول حراري</span><span style="color:#B58D4D">✦</span><span>ستيكر رول بصمة</span><span style="color:#B58D4D">✦</span>
 </div>
 </section>
 
 <!-- MANIFESTO -->
 <section class="pad" style="max-width:1200px;margin:0 auto;padding:180px 40px 160px">
-<div style="display:flex;align-items:center;gap:14px;font-size:14px;color:#8A6630;font-weight:500;letter-spacing:.04em"><span class="lat">٠١</span><span style="width:60px;height:1px;background:#B58D4D"></span>بيان سفير</div>
-<p class="mani" style="margin:40px 0 0;font-size:52px;line-height:1.55;font-weight:400">
-<span class="w">نؤمن</span> <span class="w">أن</span> <span class="w">الورق</span> <span class="w">ليس</span> <span class="w">مجرد</span> <span class="w">منتج،</span> <span class="w">بل</span> <span class="w" style="color:#8A6630">تفاصيل</span> <span class="w" style="color:#8A6630">صغيرة</span> <span class="w">تصنع</span> <span class="w">راحة</span> <span class="w">الحياة</span> <span class="w">اليومية.</span> <span class="w">في</span> <span class="w">كل</span> <span class="w">طبقة</span> <span class="w">نصنعها</span> <span class="w">وعدٌ</span> <span class="w">بالنعومة،</span> <span class="w">والمتانة،</span> <span class="w">واحترامٌ</span> <span class="w">لمن</span> <span class="w">سيلمسها.</span>
+<div style="display:flex;align-items:center;gap:14px;font-size:14px;color:#8A6630;font-weight:500;letter-spacing:.04em"><span class="lat">٠١</span><span style="width:60px;height:1px;background:#B58D4D"></span>مصنع سفير</div>
+<p class="mani" style="margin:40px 0 0;font-size:44px;line-height:1.6;font-weight:400">
+<span class="w">نؤمن</span> <span class="w">في</span> <span class="w">سفير</span> <span class="w">أن</span> <span class="w">الورق</span> <span class="w">ليس</span> <span class="w">مجرد</span> <span class="w">مادة</span> <span class="w">خام،</span> <span class="w">بل</span> <span class="w">أساسٌ</span> <span class="w">لمنتجات</span> <span class="w">تصنع</span> <span class="w">فرقًا</span> <span class="w">في</span> <span class="w">تفاصيل</span> <span class="w">حياتنا</span> <span class="w">اليومية.</span> <span class="w">ومن</span> <span class="w">خلال</span> <span class="w">خبرتنا</span> <span class="w">في</span> <span class="w">استيراد</span> <span class="w">الورق</span> <span class="w">وتوريده</span> <span class="w">وتصنيع</span> <span class="w">المنتجات</span> <span class="w">الورقية</span> <span class="w">النهائية،</span> <span class="w">نحرص</span> <span class="w">على</span> <span class="w">تقديم</span> <span class="w">حلول</span> <span class="w">تجمع</span> <span class="w">بين</span> <span class="w" style="color:#8A6630">الجودة</span> <span class="w" style="color:#8A6630">والمتانة،</span> <span class="w">لتلبي</span> <span class="w">احتياجات</span> <span class="w">عملائنا</span> <span class="w">وتواكب</span> <span class="w">تطلعاتهم.</span>
 </p>
 </section>
 
@@ -315,7 +315,7 @@ a{color:#354B1F}a:hover{color:#8A6630}
 </div>
 <div class="rv" style="grid-column:span 2;background:#F4EEDF;border:1.5px dashed rgba(53,75,31,.35);border-radius:28px;padding:40px;min-height:260px;display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap">
 <div><div style="font-size:30px;font-weight:600">أسعار جملة تنافسية</div><div style="font-size:16px;margin-top:10px;color:#3F5328;max-width:380px;line-height:1.8">عروض مخصّصة للكميات وعقود التوريد السنوية.</div></div>
-<a class="btn btn-g" href="contact.html">احصل على عرض</a>
+<a class="btn btn-g" href="contact.html" data-quote>احصل على عرض</a>
 </div>
 </div>
 </div>
@@ -364,7 +364,7 @@ a{color:#354B1F}a:hover{color:#8A6630}
 <div style="padding:20px;border-radius:18px;border:1px solid rgba(53,75,31,.14)"><div style="font-size:14px;color:#56693D">الحد الأدنى للطلب</div><div style="font-size:22px;font-weight:600;margin-top:6px">[حدّد الكمية]</div></div>
 <div style="padding:20px;border-radius:18px;border:1px solid rgba(53,75,31,.14)"><div style="font-size:14px;color:#56693D">مدة التنفيذ</div><div style="font-size:22px;font-weight:600;margin-top:6px">[٠٠ يوم عمل]</div></div>
 </div>
-<a class="btn btn-g" href="contact.html" style="margin-top:36px">ابدأ علامتك الخاصة</a>
+<a class="btn btn-g" href="contact.html" data-quote style="margin-top:36px">ابدأ علامتك الخاصة</a>
 </div>
 </div>
 </section>
@@ -395,8 +395,8 @@ a{color:#354B1F}a:hover{color:#8A6630}
 <h2 class="big-h" style="margin:0;font-size:96px;line-height:1.1;font-weight:600;color:#1F2B12">لنبدأ<br>الشراكة.</h2>
 <p style="margin:26px 0 0;font-size:20px;line-height:1.8;color:#2E3A1C">أخبرنا بما تحتاجه، وسيتواصل معك فريق المبيعات بعرض سعر مخصّص خلال يوم عمل.</p>
 <div style="display:flex;gap:14px;margin-top:44px;flex-wrap:wrap">
-<a class="btn" href="contact.html" style="background:#1F2B12;color:#F4EEDF">اطلب عرض سعر</a>
-<a class="btn" href="#" style="border:1.5px solid #1F2B12;color:#1F2B12">
+<a class="btn" href="contact.html" data-quote style="background:#1F2B12;color:#F4EEDF">اطلب عرض سعر</a>
+<a class="btn" href="https://wa.me/966500000000" target="_blank" rel="noopener" data-wa style="border:1.5px solid #1F2B12;color:#1F2B12">
 <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 01-13.5 7.8L3 21l1.3-4.4A9 9 0 1121 12z"></path></svg>واتساب</a>
 </div>
 </div>
@@ -458,6 +458,58 @@ a{color:#354B1F}a:hover{color:#8A6630}
   render();
 })();
 
+</script>
+
+<style>
+dialog.qd{border:0;padding:0;background:transparent;width:calc(100% - 32px);max-width:460px;overflow:visible}
+dialog.qd::backdrop{background:rgba(31,43,18,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+@keyframes qIn{from{opacity:0;transform:translateY(24px) scale(.96)}to{opacity:1;transform:none}}
+.qcard{animation:qIn .5s cubic-bezier(.2,.7,.1,1) both}
+.qopt{transition:transform .35s cubic-bezier(.2,.7,.1,1),box-shadow .35s}.qopt:hover{transform:translateY(-3px);box-shadow:0 20px 30px -20px rgba(38,54,26,.5)}
+</style>
+<dialog class="qd sf" id="quoteDlg" aria-labelledby="qdT">
+<div class="qcard" style="position:relative;background:#F4EEDF;border-radius:28px;padding:40px 32px 30px;box-shadow:0 60px 100px -40px rgba(20,30,10,.6);overflow:hidden;text-align:center;color:#354B1F">
+<img src="assets/safir-s.webp" alt="" style="position:absolute;inset-inline-start:-50px;bottom:-70px;width:200px;height:auto;opacity:.12;pointer-events:none">
+<button type="button" data-close aria-label="إغلاق" style="position:absolute;top:14px;inset-inline-end:14px;width:44px;height:44px;border-radius:50%;border:1px solid rgba(53,75,31,.22);background:transparent;color:#354B1F;cursor:pointer;display:grid;place-items:center"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+<img src="assets/safir-s.webp" alt="" style="width:52px;height:auto">
+<h2 id="qdT" style="margin:16px 0 0;font-size:32px;font-weight:600;color:#354B1F">اطلب عرض سعر</h2>
+<p style="margin:10px auto 0;max-width:330px;font-size:15px;line-height:1.8;color:#3F5328">اختر طريقة التواصل الأنسب لك، وسيردّ عليك فريق المبيعات خلال يوم عمل.</p>
+<div style="position:relative;display:flex;flex-direction:column;gap:12px;margin-top:28px">
+<a id="qdWa" href="https://wa.me/966500000000" target="_blank" rel="noopener" class="qopt" style="display:flex;align-items:center;gap:16px;padding:16px 18px;border-radius:18px;background:#354B1F;color:#F4EEDF;text-decoration:none;text-align:start">
+<span style="width:48px;height:48px;flex:none;border-radius:50%;background:#B58D4D;display:grid;place-items:center"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1F2B12" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 01-13.5 7.8L3 21l1.3-4.4A9 9 0 1121 12z"></path></svg></span>
+<span style="flex:1"><span style="display:block;font-size:18px;font-weight:600">واتساب</span><span style="display:block;font-size:13px;color:#D8CA98;margin-top:2px">محادثة مباشرة مع فريق المبيعات</span></span>
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;opacity:.7"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></a>
+<a id="qdMail" href="mailto:sales@safir.sa" class="qopt" style="display:flex;align-items:center;gap:16px;padding:16px 18px;border-radius:18px;background:#FAF6EC;border:1px solid rgba(53,75,31,.16);color:#354B1F;text-decoration:none;text-align:start">
+<span style="width:48px;height:48px;flex:none;border-radius:50%;background:#D8CA98;display:grid;place-items:center"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#354B1F" stroke-width="1.8" stroke-linejoin="round"><path d="M3 6h18v12H3z"></path><path d="M3 7l9 6 9-6" stroke-linecap="round"></path></svg></span>
+<span style="flex:1"><span style="display:block;font-size:18px;font-weight:600">البريد الإلكتروني</span><span class="lat" style="display:block;font-size:13px;color:#56693D;margin-top:2px">[sales@safir.sa]</span></span>
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;opacity:.7"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></a>
+</div>
+</div>
+</dialog>
+<script>
+(function(){
+  /* Sales contact details: replace with the real WhatsApp number (country code, no +) and email. */
+  var SAFIR_WA = '966500000000';
+  var SAFIR_EMAIL = 'sales@safir.sa';
+  var DEFAULT_MSG = 'مرحباً سفير، أرغب في الحصول على عرض سعر.';
+  var SUBJECT = 'طلب عرض سعر — موقع سفير';
+  var cur = DEFAULT_MSG, dlg = document.getElementById('quoteDlg');
+  function wa(m){ return 'https://wa.me/' + SAFIR_WA + '?text=' + encodeURIComponent(m); }
+  function mail(m){ return 'mailto:' + SAFIR_EMAIL + '?subject=' + encodeURIComponent(SUBJECT) + '&body=' + encodeURIComponent(m); }
+  window.safirQuote = function(m){
+    if (m) cur = m;
+    document.getElementById('qdWa').href = wa(cur);
+    document.getElementById('qdMail').href = mail(cur);
+    if (dlg.showModal) dlg.showModal(); else window.open(wa(cur), '_blank');
+  };
+  document.querySelectorAll('[data-wa]').forEach(function(a){ a.href = wa(DEFAULT_MSG); });
+  document.addEventListener('click', function(e){
+    var q = e.target.closest('[data-quote]');
+    if (q) { e.preventDefault(); window.safirQuote(); return; }
+    if (e.target.closest('[data-close]') || e.target === dlg) { dlg.close(); return; }
+    if (e.target.closest('.qopt')) setTimeout(function(){ dlg.close(); }, 400);
+  });
+})();
 </script>
 </body>
 </html>
